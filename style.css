@@ -146,8 +146,8 @@ section{
 
 .about1 , .skills{
     background-color: white;
-    padding: 2rem 2px;
-    height: 110vh;
+    padding: 4rem 2px;
+    height: 100vh;
 }
 
 .about1 h2 , .skills h2{
