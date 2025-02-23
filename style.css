@@ -158,7 +158,8 @@ section {
 }
 
 .about1 hr,
-.skills hr {
+.skills hr,
+.container-2 hr {
   width: 100px;
   height: 3px;
   background-color: #89e78e;
@@ -254,11 +255,11 @@ section {
 }
 .container-1 h2 {
   text-align: center;
- font-size: 2.5rem;
- font-weight: 700;
- word-spacing: 5px;
- letter-spacing: 2px;
-  margin-top: 6rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  margin-top: 2rem;
 }
 .container-1 .item-tot {
   padding: 10px 150px;
@@ -268,22 +269,73 @@ section {
   justify-items: center;
   text-align: center;
 }
-.container-1 .item-tot .item{
-    margin: 35px 30px;
-    padding: 10px 0px;
-    background: #ffffff;
-    border: 1px solid white;
-    border-radius: 10px;
-    box-shadow: 1px 1px 15px #c9c9c9;
-    transition: .5s;
-    cursor: pointer;
+.container-1 .item-tot .item {
+  margin: 35px 30px;
+  padding: 10px 0px;
+  background: #ffffff;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px #c9c9c9;
+  transition: 0.5s;
 }
-.container-1 .item-tot .item:hover{
-    transition: .5s;
-    box-shadow: 3px 5px 20px #686868;
+.container-1 .item-tot .item:hover {
+  transition: 0.5s;
+  box-shadow: 3px 5px 20px #686868;
 }
 
 /*END SECTION*/
+
+/*SECTION-2*/
+.section-2 {
+  background: #0f272d;
+  padding: 20px 200px;
+  height: 150vh;
+}
+.container-2 .content-2 h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+}
+.container-2 .content-2 a{
+  text-decoration: none;
+  color: #10c019;
+  transition: .3s;
+}
+.container-2 .content-2 a:hover{
+  transition: .3s;
+  text-shadow: 2px 4px  2px #d1d1d1;
+}
+.container-2 .content-2 h1{
+  color: #0f272d;
+  padding-bottom: 10px;
+}
+.content-2 .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  justify-items: center;
+  padding: 2.5rem 0px;
+  gap: 2.5rem;
+  text-align: center;
+}
+.content-2 .row .item img {
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px ;
+  cursor: pointer;
+}
+.content-2 .row .item{
+  background-color: white;
+  border-radius: 10px;
+}
+.content-2 .row .item .item-content{
+padding: 18px;
+}
+
+/*END SECTION-2*/
+
 
 /*ANIMATION*/
 .blok {
