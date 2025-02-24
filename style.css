@@ -329,6 +329,10 @@ section {
 .content-2 .row .item{
   background-color: white;
   border-radius: 10px;
+  transition: .5s
+}
+.content-2 .row .item:hover{
+ transform: scale(1.03);
 }
 .content-2 .row .item .item-content{
 padding: 18px;
@@ -341,7 +345,7 @@ padding: 18px;
 .blok {
   animation: nabil linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 50%;
+  animation-range: entry 0% cover 30%;
 }
 @keyframes nabil {
   from {
