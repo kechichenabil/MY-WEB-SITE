@@ -151,7 +151,7 @@ section {
 .about1 h2,
 .skills h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 2.3rem;
   color: #375583;
   font-weight: 600;
   letter-spacing: 1px;
@@ -255,12 +255,13 @@ section {
 }
 .container-1 h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
   word-spacing: 5px;
   letter-spacing: 2px;
   margin-top: 2rem;
 }
+
 .container-1 .item-tot {
   padding: 10px 150px;
   display: grid;
@@ -293,20 +294,20 @@ section {
 }
 .container-2 .content-2 h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 600;
   color: white;
 }
-.container-2 .content-2 a{
+.container-2 .content-2 a {
   text-decoration: none;
   color: #10c019;
-  transition: .3s;
+  transition: 0.3s;
 }
-.container-2 .content-2 a:hover{
-  transition: .3s;
-  text-shadow: 2px 4px  2px #d1d1d1;
+.container-2 .content-2 a:hover {
+  transition: 0.3s;
+  text-shadow: 2px 4px 2px #d1d1d1;
 }
-.container-2 .content-2 h1{
+.container-2 .content-2 h1 {
   color: #0f272d;
   padding-bottom: 10px;
 }
@@ -323,23 +324,116 @@ section {
   max-width: 100%;
   justify-content: center;
   align-items: center;
-  border-radius: 10px 10px 0px 0px ;
+  border-radius: 10px 10px 0px 0px;
   cursor: pointer;
 }
-.content-2 .row .item{
+.content-2 .row .item {
   background-color: white;
   border-radius: 10px;
-  transition: .5s
+  transition: 0.5s;
 }
-.content-2 .row .item:hover{
- transform: scale(1.03);
+.content-2 .row .item:hover {
+  transform: scale(1.03);
 }
-.content-2 .row .item .item-content{
-padding: 18px;
+.content-2 .row .item .item-content {
+  padding: 18px;
 }
-
 /*END SECTION-2*/
 
+/*SECTION-3*/
+.section-3 {
+  height: 109vh;
+}
+.section-3 h2{
+  text-align: center;
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  top: 7rem;
+}
+.section-3 hr {
+  width: 130px;
+  height: 4px;
+  background-color: #89e78e;
+  border: none;
+  margin: 5px auto 0;
+  position: relative;
+  top: 110px;
+  border-radius: 10px;
+}
+.section-3 i{
+  margin-right: 10px;
+}
+.container-3 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+.content-3 {
+  padding: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background: #ffffff;
+  width: 70%;
+  height: 55%;
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px #acacac;
+}
+.content-3 img {
+  width: 35%;
+  position: relative;
+  right: 8%;
+}
+.content-3 form{
+  position: relative;
+  width: 50%;
+  left :5%;
+}
+.content-3 .input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 13px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  border: 1px solid #c0c0c0;
+}
+form .message{
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  padding-bottom: 150px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+  border: none;
+  border: 1px solid #c0c0c0;
+}
+.content-3 button{
+  width: 114px;
+  height: 38px;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  background: #1cd125;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: .5s;
+}
+.content-3 button:hover{
+  transform: .5s;
+  color: #ffffff;
+}
+/*END-SECTION-3*/
 
 /*ANIMATION*/
 .blok {
