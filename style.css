@@ -412,9 +412,9 @@ form .message{
   padding-bottom: 150px;
   border-radius: 5px;
   outline: none;
-  margin-bottom: 10px;
   border: none;
   border: 1px solid #c0c0c0;
+  resize: none;
 }
 .content-3 button{
   width: 114px;
