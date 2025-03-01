@@ -790,7 +790,24 @@ form .message {
     /*SECTION-5-END*/
 
     /*SECTION-6*/
+    .section-3 {
+      height: 110vh;
+    }
+    .section-3 hr {
+      margin-bottom: 2rem;
+    }
+    .content-3 button {
+      margin: 15px 0px;
+    }
+    /*SECTION-6-END*/
 
+    /*FOOTER*/
+    .footer {
+      background-color: #141414;
+      position: relative;
+      bottom: 130px;
+      padding: 12px 12px;
+    }
   }
 }
 /*MOBILE-END*/
