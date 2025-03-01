@@ -589,59 +589,209 @@ form .message {
   }
   /*SECTION-5-END*/
 
+  /*SECTION-6*/
+  .section-3 {
+    height: 110vh;
+  }
+  .section-3 h2 {
+    top: 2rem;
+  }
+  .section-3 hr {
+    top: 2rem;
+  }
+  .content-3 {
+    height: auto;
+    width: 87%;
+    display: grid;
+    grid-template-columns: (1, 1fr);
+    row-gap: 3rem;
+  }
+  .content-3 form {
+    position: relative;
+    justify-self: left;
+    left: 0;
+  }
+  .container-3 {
+    height: 83vh;
+    position: relative;
+    justify-items: left;
+  }
+  .content-3 img {
+    width: 40%;
+    position: relative;
+    left: 0px;
+  }
+  .content-3 .input {
+    width: 200%;
+    margin-bottom: 13px;
+    padding: 14px;
+  }
+  form .message {
+    width: 200%;
+  }
+  .content-3 button {
+    margin: 20px 0px;
+  }
+  /*SECTION-6-END*/
+
+  /*FOOTER*/
+  .footer {
+    background-color: #141414;
+    position: relative;
+    bottom: 210px;
+    padding: 12px 12px;
+  }
+  /*FOOTER-END*/
+
+  /*MOBILE*/
+  @media (max-width: 528px) {
+    .container {
+      display: block;
+      text-align: center;
+      padding-bottom: 10px;
+      padding: 15px 0px;
+    }
+    .logo {
+      padding-bottom: 6px;
+    }
+    .content a {
+      margin: 3px;
+    }
+
+    /*SECTION-1*/
+    .section {
+      height: 90vh;
+    }
+    .container2 {
+      display: block;
+      padding: 5px 25px;
+      height: 90vh;
+    }
+    .container2 img {
+      position: block;
+      max-width: 300px;
+      left: 20px;
+      top: 40px;
+      margin: auto;
+    }
+    .content2 .user {
+      font-size: 2.4em;
+      font-weight: 800;
+      word-spacing: 5px;
+      letter-spacing: 2.1px;
+    }
+    .container2 .p1 {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .container2 .p2 {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .container2 .social {
+      font-size: 2rem;
+      margin-top: 10px;
+    }
+    .content2 .submit a {
+      font-size: 17px;
+      padding: 10px 30px;
+    }
+    /*SECTION-1-END*/
+
+    /*SECTION-2*/
+    .about1 {
+      height: 112vh;
+      padding: 1rem 0px;
+    }
+    .about1 .about-content {
+      grid-template-columns: 1fr;
+      row-gap: 2rem;
+    }
+    .about1 h2 {
+      font-size: 1.5rem;
+    }
+    .about1 hr {
+      width: 90px;
+      height: 3px;
+    }
+    .about1 .about-content .col-1 h3 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    .about1 .about-content .col-2 p {
+      margin-bottom: 20px;
+      padding-bottom: 7px;
+    }
+    /*SECTION-2-END*/
+
+    /*SECTION-3*/
+    .about2 {
+      height: 130vh;
+    }
+    .skills {
+      padding: 1px 50px;
+      height: 130vh;
+    }
+    .skills h2 {
+      font-size: 1.8rem;
+    }
+    .skills-content {
+      padding-top: 1.5rem;
+    }
+    .skills-content .row {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    /*SECTION-3-END*/
+
+    /*SECTION-4*/
+    .section-1 {
+      height: 170vh;
+    }
+    .container-1 .item-tot {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 10px 20px;
+    }
+    .container-1 h2 {
+      font-size: 1.9rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .container-1 .item-tot .item {
+      margin: 15px 30px;
+      padding: 10px 0px;
+    }
+    /*SECTION-4-END*/
+
+    /*SECTION-5*/
+    .section-2 {
+      background: #0f272d;
+      padding: 0px 40px;
+      height: 290vh;
+    }
+    .container-2 .content-2 h2 {
+      font-size: 1.8rem;
+    }
+    .content-2 .row {
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 0.2rem;
+    }
+    .content-2 .row .item img {
+      width: 280px;
+    }
+    .content-2 .row .item {
+      background-color: white;
+      border-radius: 10px;
+      transition: 0.5s;
+      margin: 15px 10px;
+    }
+    .content-2 .row .item .item-content {
+      padding: 10px;
+    }
+    /*SECTION-5-END*/
+
     /*SECTION-6*/
-    .section-3 {
-      height: 110vh;
-    }
-    .section-3 h2{
-      top: 2rem;
-    }
-    .section-3 hr{
-      top: 2rem;
-    }
-    .content-3{
-      height: auto;
-      width: 87%;
-      display: grid;
-      grid-template-columns: (1 , 1fr);
-      row-gap: 3rem;
-    }
-    .content-3 form{
-      position: relative;
-      justify-self: left;
-      left: 0;
-    }
-    .container-3 {
-      height: 83vh;
-      position: relative;
-      justify-items: left;
-    }
-    .content-3 img {
-      width: 40%;
-      position: relative;
-      left: 0px;
-    }
-    .content-3 .input{
-      width: 200%;
-      margin-bottom: 13px;
-      padding: 14px;
-    }
-    form .message{
-      width: 200%;
-    }
-    .content-3 button{
-      margin: 20px 0px;
-    }
-    /*SECTION-6-END*/
 
-    /*FOOTER*/
-    .footer {
-      background-color: #141414;
-      position: relative;
-      bottom: 210px;
-      padding: 12px 12px;
-    }
-    /*FOOTER-END*/
-
+  }
 }
+/*MOBILE-END*/
 /*MEDIA-IBAD-END*/
