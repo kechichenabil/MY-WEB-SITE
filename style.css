@@ -479,10 +479,10 @@ form .message {
     display: block;
     text-align: center;
     padding-bottom: 20px;
+    box-sizing: border-box;
   }
   header {
-    position: fixed;
-    top: 0;
+    box-sizing: border-box;
   }
   .logo {
     padding-bottom: 12px;
@@ -496,17 +496,20 @@ form .message {
 
   /*SECTION-1*/
   .section {
-    height: 83vh;
+    height: auto;
+    box-sizing: border-box;
   }
   .container2 {
     display: block;
     padding: 10px 30px;
-    height: 83vh;
+    height: auto;
+    box-sizing: border-box;
   }
   .container2 img {
     position: block;
-    max-width: 450px;
+    max-width: 90%;
     margin: auto;
+    box-sizing: border-box;
   }
   .content2 .user {
     padding: 0px 0px;
@@ -644,64 +647,64 @@ form .message {
   /*FOOTER-END*/
 
   /*MOBILE*/
-  @media (max-width: 528px) {
+  @media (max-width: 600px) {
     .container {
       display: block;
       text-align: center;
-      padding-bottom: 10px;
-      padding: 15px 0px;
+      padding-bottom: 2%;
+      padding: 1% 0%;
     }
     .logo {
-      padding-bottom: 6px;
+      padding-bottom: 1%;
+      font-size: 0.6rem;
     }
     .content a {
-      margin: 3px;
+      margin: 0.5%;
+      font-size: 0.8rem;
     }
 
     /*SECTION-1*/
     .section {
-      height: 90vh;
+      height: auto;
     }
     .container2 {
       display: block;
-      padding: 5px 25px;
-      height: 90vh;
+      padding: 1% 5%;
+      height: auto;
     }
     .container2 img {
       position: block;
-      max-width: 300px;
-      left: 20px;
-      top: 40px;
+      left: 5%;
       margin: auto;
     }
     .content2 .user {
-      font-size: 2.4em;
+      font-size: 2rem;
       font-weight: 800;
       word-spacing: 5px;
       letter-spacing: 2.1px;
     }
     .container2 .p1 {
       font-weight: 600;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     .container2 .p2 {
       font-weight: 600;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     .container2 .social {
-      font-size: 2rem;
-      margin-top: 10px;
+      font-size: 1.7rem;
+      margin-top: 2%;
     }
     .content2 .submit a {
-      font-size: 17px;
-      padding: 10px 30px;
+      font-size: 1rem;
+      padding: 2% 4%;
     }
     /*SECTION-1-END*/
 
     /*SECTION-2*/
     .about1 {
-      height: 112vh;
-      padding: 1rem 0px;
+      height: auto;
+      padding: 3.7rem 0px;
     }
     .about1 .about-content {
       grid-template-columns: 1fr;
@@ -711,45 +714,49 @@ form .message {
       font-size: 1.5rem;
     }
     .about1 hr {
-      width: 90px;
+      width: 35%;
       height: 3px;
     }
     .about1 .about-content .col-1 h3 {
-      font-size: 25px;
-      margin-bottom: 10px;
+      font-size: 1.5rem;
+      margin-bottom: 3%;
     }
     .about1 .about-content .col-2 p {
-      margin-bottom: 20px;
-      padding-bottom: 7px;
+      margin-bottom: 5%;
+      padding-bottom: 2%;
     }
     /*SECTION-2-END*/
 
     /*SECTION-3*/
     .about2 {
-      height: 130vh;
+      height: auto;
     }
     .skills {
-      padding: 1px 50px;
-      height: 130vh;
+      padding: 1% 16%;
+      height: auto;
     }
     .skills h2 {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
     }
     .skills-content {
-      padding-top: 1.5rem;
+      padding-top: 2rem;
     }
     .skills-content .row {
       grid-template-columns: repeat(1, 1fr);
+    }
+    .skills-content .row .item {
+      margin-top: 1%;
     }
     /*SECTION-3-END*/
 
     /*SECTION-4*/
     .section-1 {
-      height: 170vh;
+      height: auto;
+      padding-top: 3.7rem 0px;
     }
     .container-1 .item-tot {
       grid-template-columns: repeat(1, 1fr);
-      padding: 10px 20px;
+      padding: 1% 9%;
     }
     .container-1 h2 {
       font-size: 1.9rem;
@@ -757,16 +764,15 @@ form .message {
       margin-bottom: 1rem;
     }
     .container-1 .item-tot .item {
-      margin: 15px 30px;
-      padding: 10px 0px;
+      margin: 3% 10%;
+      padding: 5% 0px;
     }
     /*SECTION-4-END*/
 
     /*SECTION-5*/
     .section-2 {
-      background: #0f272d;
-      padding: 0px 40px;
-      height: 290vh;
+      height: auto;
+      padding: 10% 0%;
     }
     .container-2 .content-2 h2 {
       font-size: 1.8rem;
@@ -776,37 +782,45 @@ form .message {
       margin-top: 0.2rem;
     }
     .content-2 .row .item img {
-      width: 280px;
+      position: relative;
+      width: 100%;
     }
     .content-2 .row .item {
-      background-color: white;
       border-radius: 10px;
       transition: 0.5s;
-      margin: 15px 10px;
+      margin: 8% 5%;
+      width: 200%;
     }
     .content-2 .row .item .item-content {
-      padding: 10px;
+      padding: 5%;
     }
     /*SECTION-5-END*/
 
     /*SECTION-6*/
-    .section-3 {
-      height: 110vh;
+    #contact {
+      height: auto;
+    }
+    #contact h2 {
+      font-size: 1.7rem;
     }
     .section-3 hr {
-      margin-bottom: 2rem;
+      width: 30%;
+      left: 5%;
     }
-    .content-3 button {
-      margin: 15px 0px;
+    .container-3 {
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+      height: 150vh;
     }
     /*SECTION-6-END*/
 
     /*FOOTER*/
     .footer {
       background-color: #141414;
-      position: relative;
-      bottom: 130px;
-      padding: 12px 12px;
+      top: 0;
     }
   }
 }
