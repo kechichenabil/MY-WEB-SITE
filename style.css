@@ -11,7 +11,7 @@
 html {
   scroll-behavior: smooth;
 }
-.icon{
+.icon {
   display: none;
 }
 
@@ -48,7 +48,7 @@ header {
   margin-left: 30px;
 }
 
-nav span{
+nav span {
   color: #274169;
 }
 
@@ -83,7 +83,19 @@ section {
   height: 80vh;
   padding: 0px 100px;
 }
-
+.span-js , #span-js3{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.span-js{
+  background-color: #57c55c;
+  color: white;
+  border-radius: 10px;
+  padding: 0px 10px 0px 10px;
+}
+#span-js3{
+  font-size: 1.3rem;
+}
 .container2 img {
   position: relative;
   left: 160px;
@@ -499,7 +511,7 @@ form .message {
     margin-left: 16px;
     font-weight: 600;
   }
-  nav span{
+  nav span {
     color: #2a5661;
   }
 
@@ -657,9 +669,28 @@ form .message {
 
   /*MOBILE*/
   @media (max-width: 600px) {
+<<<<<<< HEAD
     header{
     background-color: white;
     padding: 10px 20px;
+=======
+    header {
+      background-color: white;
+      padding: 0px 20px;
+    }
+    .span-js , #span-js2{
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .span-js{
+      background-color: #57c55c;
+      color: white;
+      border-radius: 10px;
+      padding: 0px 10px 0px 10px;
+    }
+    #span-js2{
+      font-size: 1.3rem;
+>>>>>>> 43bdca9 (UPD CODE NAV BAR)
     }
     .container {
       display: flex;
@@ -667,29 +698,41 @@ form .message {
       padding-bottom: 2%;
       padding: 1% 0%;
     }
-    nav{
+    nav {
       background-color: #2a5661;
       position: absolute;
       top: 58px;
       width: 110%;
       left: -20px;
       display: grid;
-      padding-bottom:11px;
+      padding-bottom: 11px;
       padding-top: 5px;
       opacity: 1;
+<<<<<<< HEAD
       transition: .5s;
+=======
+      transition: 0.5s;
+>>>>>>> 43bdca9 (UPD CODE NAV BAR)
     }
-    nav.active{
+    nav.active {
       opacity: 0;
+<<<<<<< HEAD
       transition: .5s;
+=======
+      transition: 0.5s;
+>>>>>>> 43bdca9 (UPD CODE NAV BAR)
     }
-    nav a{
-      margin-top: 7px;
-      width: 17%;
-      left: 39%;
+    nav a {
+      padding-bottom: 5px;
+      margin-top: 10px;
+      width: 30%;
+      left: 33%;
       right: 0;
+      border: 1px solid #e6e6e6;
+      border-radius: 5px;
+      transition: 0.5s;
     }
-    nav span{
+    nav span {
       color: white;
     }
     .content a::after {
@@ -703,11 +746,12 @@ form .message {
       transform: scale(0);
       transition: 0.2s;
     }
-    .icon{
+    .icon {
       position: relative;
       display: block;
       font-size: 1.5rem;
-       cursor: pointer;
+      cursor: pointer;
+      transition: 0.5s;
     }
     .logo {
       padding-bottom: 1%;
@@ -718,11 +762,12 @@ form .message {
       width: 100%;
     }
 
-    .fa-bars{
+    .fa-bars {
       position: absolute;
       top: 7px;
       bottom: 0;
       opacity: 1;
+<<<<<<< HEAD
       transition: .5s;
     }
     .fa-bars.active{
@@ -732,14 +777,26 @@ form .message {
     .fa-xmark{
       opacity: 0;
       transition: .5s;
+=======
+      transition: 0.5s;
     }
-    .fa-xmark.active{
+    .fa-bars.active {
+      opacity: 0;
+      transition: 0.5s;
+>>>>>>> 43bdca9 (UPD CODE NAV BAR)
+    }
+    .fa-xmark {
+      opacity: 0;
+      transition: 0.5s;
+    }
+    .fa-xmark.active {
       opacity: 1;
+<<<<<<< HEAD
       transition: .5s;
+=======
+      transition: 0.5s;
+>>>>>>> 43bdca9 (UPD CODE NAV BAR)
     }
-
-    
-
 
     /*SECTION-1*/
     .section {
