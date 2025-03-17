@@ -27,4 +27,5 @@ icon.addEventListener("click", () => {
   bars.classList.toggle("active");
   xmark.classList.toggle("active");
   nav.classList.toggle("active");
+  
 });
